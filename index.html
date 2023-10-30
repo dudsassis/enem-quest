@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnemQuest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">EnemQuest</a>
+            <nav class="navbar">
+                    <select name="pets" id="pet-select" class="selecionar">
+                        <option value="">Escolha a materia</option>
+                        <option value="dog">Biologia</option>
+                        <option value="cat">Português</option>
+                        <option value="hamster">Matemática</option>
+                        <option value="parrot">História</option>
+                        <option value="spider">Química</option>
+                        <option value="goldfish">Física</option>
+                        <option value="goldfish">Geografia</option>
+                        <option value="goldfish">Filosofia</option>
+                    </select>
+            </nav>
+        </header>
+        
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>EnemQuest</h1>
+                    <div class="quiz-header">
+                        <span>tutorial</span>
+                        <span class="header-score">pontos 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">Biologia</h2>
+
+                    <div class="option-list">
+                       <!--<div class="option">
+                            <span>A. ramificações.</span>
+                        </div>
+                        <div class="option">
+                            <span>B. insaturações.</span>
+                        </div>
+                        <div class="option">
+                            <span>C.anel benzênico.</span>
+                        </div>
+                        <div class="option">
+                            <span>D.átomos de oxigênio.</span>
+                        </div>-->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 de 5 questões</span>
+                        <button class="next-btn">Próximo</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Resultado</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>                            
+                        </div>
+
+                        <span class="score-text"> seus pontos são 0 de 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Tente novamente</button>
+                        <button class="goHome-btn">voltar pra tela inicial</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home"> 
+                <div class="home-content">
+                    <h1>Enem Quest</h1>
+                    <p>Um jeito novo de aprender!</p>
+                    <button class="start-btn">Começar Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Informações</h2>
+        <span class="info">1. O quiz tem como finalidade testar seus conhecimentos</span>
+        <span class="info">2. Escolher 1 matéria por vez, para responder</span>
+        <span class="info">3. Responder cada questão por vez</span>
+        <span class="info">4. Ao final irá aparecer o resultado do quiz</span>   
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Sair</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="questoes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
